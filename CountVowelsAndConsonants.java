@@ -12,7 +12,7 @@ public class CountVowelsAndConsonants {
               if(str.charAt(i) >= 'A' && str.charAt(i) <= 'Z') {
                     int ascii = (int)str.charAt(i);
 
-                    newStr += (char)(ascii - 32);
+                    newStr += (char)(ascii + 32);
                }
               else if(str.charAt(i) >= 'a' && str.charAt(i) <= 'z'){
                    newStr += str.charAt(i);
